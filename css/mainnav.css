@@ -1,0 +1,43 @@
+/*
+* @Author: 62599
+* @Date:   2017-08-07 16:19:56
+* @Last Modified by:   62599
+* @Last Modified time: 2017-08-08 18:58:02
+*/
+.point{
+	position:absolute;
+	top:42px;
+	left:443px;
+}
+.point li{
+	width:10px;
+	height:10px;
+	background:#333;
+	border-radius:50%;
+}
+.mainnav{
+	overflow:hidden;
+	position:fixed;
+	background:rgba(0,0,0,0.7);
+	z-index:1;
+	bottom: 0px;
+	left:0px;
+	width:100%;
+	z-index: 5;
+}
+.mainnav li{
+	float: left;
+	width:150px;
+	height:40px;
+	margin-left:100px;
+	text-align: center;
+	line-height: 40px;
+}
+.mainnav li a{
+	color:white;
+	font-size:15px;
+}
+.mainnav li:hover{
+	background:#da5c2a;
+	opacity:0.7;
+}
